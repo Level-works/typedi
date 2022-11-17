@@ -1,9 +1,9 @@
 # TypeDI
 
-![Build Status](https://github.com/typestack/typedi/workflows/CI/badge.svg)
-[![codecov](https://codecov.io/gh/typestack/typedi/branch/master/graph/badge.svg)](https://codecov.io/gh/typestack/typedi)
+![Build Status](https://github.com/finwo/typedi/workflows/CI/badge.svg)
+[![codecov](https://codecov.io/gh/finwo/typedi/branch/master/graph/badge.svg)](https://codecov.io/gh/finwo/typedi)
 [![npm version](https://badge.fury.io/js/typedi.svg)](https://badge.fury.io/js/typedi)
-[![Dependency Status](https://david-dm.org/typestack/typedi.svg)](https://david-dm.org/typestack/typedi)
+[![Dependency Status](https://david-dm.org/finwo/typedi.svg)](https://david-dm.org/finwo/typedi)
 
 TypeDI is a [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) tool for TypeScript and JavaScript. With it you can build well-structured and easily testable applications in Node or in the browser.
 
@@ -82,6 +82,18 @@ The detailed usage guide and API documentation for the project can be found:
 
 [docs-stable]: https://docs.typestack.community/typedi/
 [docs-development]: https://docs.typestack.community/typedi/v/develop/
+
+## Why the fork?
+
+The only activity on [the original typedi](https://github.com/typestack/typedi)
+was by bots, not by maintainers. Because of this lack of maintenance, no release
+has been made since Jan 15, 2021 even though bugfixes have been merged into it's
+develop branch.
+
+This fork is solely to have the most recent state of
+[typedi](https://npmjs.com/package/typedi) available on npmjs. Should the
+original typedi receive updates again, this fork should track those instead of
+implementing other behavior.
 
 ## Contributing
 
