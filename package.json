@@ -1,5 +1,5 @@
 {
-  "name": "@finwo/typedi",
+  "name": "@levelworks/typedi",
   "version": "0.11.1",
   "description": "Dependency injection for TypeScript.",
   "author": "TypeStack contributors",

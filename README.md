@@ -1,7 +1,7 @@
 # TypeDI
 
-![Build Status](https://github.com/finwo/typedi/workflows/CI/badge.svg)
-[![npm version](https://img.shields.io/npm/v/@finwo/typedi)](https://npmjs.com/package/@finwo/typedi)
+![Build Status](https://github.com/level-works/typedi/workflows/CI/badge.svg)
+[![npm version](https://img.shields.io/npm/v/@level-works/typedi)](https://npmjs.com/package/@level-works/typedi)
 
 TypeDI is a [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) tool for TypeScript and JavaScript. With it you can build well-structured and easily testable applications in Node or in the browser.
 
