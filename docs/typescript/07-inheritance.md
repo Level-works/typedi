@@ -5,7 +5,7 @@ Classes which extend a class with decorated properties will receive the initiali
 
 ```ts
 import 'reflect-metadata';
-import { Container, Token, Inject, Service } from 'typedi';
+import { Container, Token, Inject, Service } from '@levelworks/typedi';
 
 @Service()
 class InjectedClass {

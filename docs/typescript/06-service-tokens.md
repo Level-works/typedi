@@ -4,7 +4,7 @@ Service tokens are unique identifiers what provides type-safe access to a value 
 
 ```ts
 import 'reflect-metadata';
-import { Container, Token } from 'typedi';
+import { Container, Token } from '@levelworks/typedi';
 
 export const JWT_SECRET_TOKEN = new Token<string>('MY_SECRET');
 
@@ -25,7 +25,7 @@ They can be used with the `@Inject()` decorator to overwrite the inferred type o
 
 ```ts
 import 'reflect-metadata';
-import { Container, Token, Inject, Service } from 'typedi';
+import { Container, Token, Inject, Service } from '@levelworks/typedi';
 
 export const JWT_SECRET_TOKEN = new Token<string>('MY_SECRET');
 
@@ -48,7 +48,7 @@ during debugging and development. (It's included in error the messages.)
 
 ```ts
 import 'reflect-metadata';
-import { Container, Token } from 'typedi';
+import { Container, Token } from '@levelworks/typedi';
 
 const tokenA = new Token('TOKEN');
 const tokenB = new Token('TOKEN');

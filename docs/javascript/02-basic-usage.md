@@ -31,7 +31,7 @@ class CoffeeMaker {
   }
 }
 
-var Container = require('typedi').Container;
+var Container = require('@levelworks/typedi').Container;
 var coffeeMaker = Container.get(CoffeeMaker);
 coffeeMaker.make();
 ```
@@ -39,7 +39,7 @@ coffeeMaker.make();
 With TypeDI you can use a named services. Example:
 
 ```javascript
-var Container = require('typedi').Container;
+var Container = require('@levelworks/typedi').Container;
 
 class BeanFactory implements Factory {
   create() {}
@@ -84,7 +84,7 @@ This feature especially useful if you want to store (and inject later on) some s
 For example:
 
 ```javascript
-var Container = require('typedi').Container;
+var Container = require('@levelworks/typedi').Container;
 
 // somewhere in your global app parameters
 Container.set('authorization-token', 'RVT9rVjSVN');
@@ -113,8 +113,8 @@ Container.set([
 TypeDI also supports a function dependency injection. Here is how it looks like:
 
 ```javascript
-var Service = require('typedi').Service;
-var Container = require('typedi').Container;
+var Service = require('@levelworks/typedi').Service;
+var Container = require('@levelworks/typedi').Container;
 
 var PostRepository = Service(() => ({
   getName() {

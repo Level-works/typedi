@@ -5,7 +5,7 @@
 With TypeDI you can use a named services. Example:
 
 ```typescript
-import { Container, Service, Inject } from 'typedi';
+import { Container, Service, Inject } from '@levelworks/typedi';
 
 interface Factory {
   create(): void;
@@ -54,7 +54,7 @@ This feature especially useful if you want to store (and inject later on) some s
 For example:
 
 ```typescript
-import { Container, Service, Inject } from 'typedi';
+import { Container, Service, Inject } from '@levelworks/typedi';
 
 // somewhere in your global app parameters
 Container.set('authorization-token', 'RVT9rVjSVN');
@@ -99,7 +99,7 @@ This way, service instance will be created by calling your factory function inst
 instantiating a class directly.
 
 ```typescript
-import { Container, Service } from 'typedi';
+import { Container, Service } from '@levelworks/typedi';
 
 function createCar() {
   return new Car('V8');
@@ -125,7 +125,7 @@ This way, service instance will be created by calling given factory service's me
 instantiating a class directly.
 
 ```typescript
-import { Container, Service } from 'typedi';
+import { Container, Service } from '@levelworks/typedi';
 
 @Service()
 class CarFactory {

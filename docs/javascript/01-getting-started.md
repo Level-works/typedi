@@ -18,7 +18,7 @@ been created before and return the cached version or it will create a new instan
 
 ```js
 import 'reflect-metadata';
-import { Container } from 'typedi';
+import { Container } from '@levelworks/typedi';
 
 class ExampleClass {
   print() {

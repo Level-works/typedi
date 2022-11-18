@@ -13,7 +13,7 @@ requested type must be provided.
 
 ```ts
 import 'reflect-metadata';
-import { Container, Inject, Service } from 'typedi';
+import { Container, Inject, Service } from '@levelworks/typedi';
 
 @Service()
 class InjectedExampleClass {
@@ -53,7 +53,7 @@ be used to overwrite the injected type.
 
 ```ts
 import 'reflect-metadata';
-import { Container, Inject, Service } from 'typedi';
+import { Container, Inject, Service } from '@levelworks/typedi';
 
 @Service()
 class InjectedExampleClass {
@@ -99,7 +99,7 @@ In all three cases the requested dependency must be registered in the container 
 
 ```ts
 import 'reflect-metadata';
-import { Container, Inject, Service } from 'typedi';
+import { Container, Inject, Service } from '@levelworks/typedi';
 
 @Service()
 class InjectedExampleClass {

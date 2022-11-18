@@ -37,7 +37,7 @@ The most basic usage is to request an instance of a class definition. TypeDI wil
 been created before and return the cached version or it will create a new instance, cache, and return it.
 
 ```ts
-import { Container, Service } from 'typedi';
+import { Container, Service } from '@levelworks/typedi';
 
 @Service()
 class ExampleInjectedService {

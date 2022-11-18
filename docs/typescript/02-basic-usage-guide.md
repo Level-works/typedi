@@ -18,7 +18,7 @@ can register any type of value including primitive values except `undefined`. Th
 
 ```ts
 import 'reflect-metadata';
-import { Container, Inject, Service, Token } from 'typedi';
+import { Container, Inject, Service, Token } from '@levelworks/typedi';
 
 const myToken = new Token('SECRET_VALUE_KEY');
 
@@ -51,7 +51,7 @@ injected with the correct dependency.
 
 ```ts
 import 'reflect-metadata';
-import { Container, Inject, Service } from 'typedi';
+import { Container, Inject, Service } from '@levelworks/typedi';
 
 @Service()
 class InjectedClass {}
@@ -74,7 +74,7 @@ when the parent class is initialized by TypeDI.
 
 ```ts
 import 'reflect-metadata';
-import { Container, Inject, Service } from 'typedi';
+import { Container, Inject, Service } from '@levelworks/typedi';
 
 @Service()
 class InjectedClass {}
@@ -104,7 +104,7 @@ initialize all dependency on the target class. `Container.get()` can be used to 
 
 ```ts
 import 'reflect-metadata';
-import { Container, Inject, Service, Token } from 'typedi';
+import { Container, Inject, Service, Token } from '@levelworks/typedi';
 
 const myToken = new Token('SECRET_VALUE_KEY');
 
@@ -144,7 +144,7 @@ same instance. If this is not the desired behavior a class can be marked as `tra
 
 ```ts
 import 'reflect-metadata';
-import { Container, Inject, Service } from 'typedi';
+import { Container, Inject, Service } from '@levelworks/typedi';
 
 @Service({ scope: 'transient' })
 class ExampleTransientClass {

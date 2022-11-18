@@ -44,7 +44,7 @@ Now you are ready to use TypeDI with Typescript!
 ## Basic Usage
 
 ```ts
-import { Container, Service } from 'typedi';
+import { Container, Service } from '@levelworks/typedi';
 
 @Service()
 class ExampleInjectedService {

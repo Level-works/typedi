@@ -6,7 +6,7 @@ TypeDI container used by your application.
 ```ts
 import { useContainer as rcUseContainer } from 'routing-controllers';
 import { useContainer as typeOrmUseContainer } from 'typeorm';
-import { Container } from 'typedi';
+import { Container } from '@levelworks/typedi';
 
 rcUseContainer(Container);
 typeOrmUseContainer(Container);
