@@ -83,15 +83,18 @@ The detailed usage guide and API documentation for the project can be found:
 
 ## Why the fork?
 
+During development using typedi, we ran into the bug described by
+[typedi#237](https://github.com/typestack/typedi/issues/237), which prevented us
+from implementing decoupled services within our stack. The described bug had
+already been fixed, but had yet to be released.
+
 The only activity on [the original typedi](https://github.com/typestack/typedi)
 was by bots, not by maintainers. Because of this lack of maintenance, no release
-has been made since Jan 15, 2021 even though bugfixes have been merged into it's
-develop branch.
+has been made since Jan 15, 2021 even though bugfixes (like one for the above
+bug) have been merged into it's develop branch.
 
-This fork is solely to have the most recent state of
-[typedi](https://npmjs.com/package/typedi) available on npmjs. Should the
-original typedi receive updates again, this fork should track those instead of
-implementing other behavior.
+The combination of these things led us to fork the original typedi with the
+intention of reverting back to the original once it has received a new release.
 
 ## Contributing
 
